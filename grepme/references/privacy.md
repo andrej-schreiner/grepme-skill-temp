@@ -27,9 +27,9 @@ Talentsearch servers must not be asked to clone or read private GitHub repositor
 
 ## Good claims
 
-- "Designed a rollback for a production schema migration." Signal: `design`. Section: `project`.
-- "Caught a retry bug in review before it shipped." Signal: `review`. Section: `achievement`.
-- "Fixed a data race in a background worker." Signal: `commit`. Section: `experience`. Technologies: `Go`.
+- "Designed a rollback for a production schema migration." Signal: `design`. Section: `project`. Mess: Stopped a bad migration from landing with no way back.
+- "Caught a retry bug in review before it shipped." Signal: `review`. Section: `achievement`. Mess: Stopped a retry loop from shipping.
+- "Fixed a data race in a background worker." Signal: `commit`. Section: `experience`. Technologies: `Go`. Mess: Stopped overlapping writes from corrupting worker state.
 
 ## Bad claims
 
